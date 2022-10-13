@@ -1,0 +1,515 @@
+/* 
+  English.strings
+  Maisarah
+
+  Created by Maulik Vora on 10/03/22.
+  
+*/
+
+"Choose one"="Choose one";
+"Choose one detail"="Please Select one of the options listed below";
+"ResumeAccountOpennig_title"="Resume Account Opening";
+"ResumeAccountOpennig_detail"="Resume a previous or ongoing account opening application";
+"StartAccountOpening_title"="Start Account Opening";
+"StartAccountOpening_detail"="Begin a new account opening application";
+"ScheduleVideoCall_title"="Schedule Video Call";
+"ScheduleVideoCall_detail"="Schedule a video call with one of our phone bankers";
+"CheckApplicationStatus_title"="Check Application Status";
+"CheckApplicationStatus_detail"="Review status of a submited account opening application";
+
+"Select Account Type"="Select Account Type";
+"Select Account Type detail"="Review the features of the account type prior to selection";
+"Saving Account"="High Yield Saving Account";
+"Saving Account Detail"="Based on the concept of Mudarabah, with added benefits to those who want to save money while earning expected monthly profit.";
+"Saving Account Detail 2"="Maisarah High Yield Saving Account is based on the Islamic concept of Mudarabah. It offers attractive expected profit rates per annum (subject to applicable weightages for each month).";
+"Current Account"="Current Account";
+"Current Account Detail"="Based on the concept of Qard Hassan (benevolent loan) where customer deposits are considered a non-profit bearing loan to Maisarah.";
+"Current Account Detail 2"="Current Account is based on the Islamic concept of Qard Hassan. It requires minimum OMR 200 initial deposit.";
+"Prize Account"="Mudaraba Saving Account";
+"Prize Account Detail"="Based on the concept of Mudarabah where the customer provides funds for investment in Shari’a-compliant assets.";
+"Prize Account Detail 2"="Maisarah Saving Account is based on the Islamic concept of Mudarabah. It offers attractive expected profit rates per annum (subject to applicable weightages for each month).";
+"GOT IT"="GOT IT";
+
+"Schedule a Call"="Schedule a Call";
+
+"Enter details"="Enter details";
+"Enter details detail"="Please enter your contact details to proceed with the application";
+"Mobile Number"="Mobile Number";
+"Email ID"="Email ID";
+
+"NEXT"="NEXT";
+
+"Verify Mobile"="Verify Mobile";
+"Please enter the 4 digit code we've sent to your phone no"="Please enter the 4 digit code we've sent to your phone no";
+"Didn't receive the OTP? RESEND OTP"="Didn't receive the OTP? RESEND OTP";
+"did_not_receive_the_otp"="Didn't receive the OTP?";
+"resend_otp"="RESEND OTP";
+"Did you receive the OTP now?"="Did you receive the OTP now?";
+"UNDO SKIP"="UNDO SKIP";
+"Having issues receiving the OTP?"="Having issues receiving the OTP?";
+"Yes"="Yes";
+"No"="No";
+"SKIP MOBILE OTP"="SKIP MOBILE OTP";
+"Verify Email"="Verify Email";
+"Please enter the 4 digit code we've sent to your email id"="Please enter the 4 digit code we've sent to your email id";
+"OTP has been resent.\nYou will be able to resend the OTP again in"="OTP has been resent.\nYou will be able to resend the OTP again in";
+"seconds"="seconds";
+"SKIP EMAIL OTP"="SKIP EMAIL OTP";
+"VERIFY DETAILS"="VERIFY DETAILS";
+"Sorry!"="Sorry!";
+"You've entered an incorrect OTP 3 times in a row"="You've entered an incorrect OTP 3 times in a row";
+"BACK"="BACK";
+"CONTACT BANK"="CONTACT BANK";
+
+"Contact Us"="Contact Us";
+"Contact Us detail"="";
+"Call Us"="Call Us";
+"Email Us"="Email Us";
+
+"Select Citizenship"="Select Citizenship";
+"Select_Citizenship_Detail"="To Proceed with your application please select the citizenship";
+"Omani"="Omani";
+"We will need you to scan your Omani National ID"="We will need you to scan your Omani National ID";
+"Expatriate"="Expatriate";
+"We will need you to scan your Resident ID, Passport, and upload valid visa copy"="We will need you to scan your Resident ID, Passport, and upload valid visa copy";
+"GCC National"="GCC National";
+"We will need you to scan your National ID, and Passport"="We will need you to scan your National ID, and Passport";
+
+"Schedule Video Call"="Schedule Video Call";
+"Schedule Video Call Detail"="Please enter the following details to schedule a call with one of our agents";
+"Add a note"="Add a note";
+"How can we help you?"="How can we help you?";
+"Select Date"="Select Date";
+"Select Time"="Select Time";
+"SCHEDULE CALL"="SCHEDULE CALL";
+"Select Time slot"="Select Time Slot";
+
+"Proof of Address"="Proof of Address";
+"To check your liveness, please upload a photo of your face at present"="To check your liveness, please upload a photo of your face at present";
+"Upload Proof of Address"="Upload Proof of Address";
+"List of documents considered as Proof of Address:"="List of documents considered as Proof of Address:";
+
+"Thank you!"="Thank you!";
+"Thank you detail1"="Your request has been submitted. Our contact center agent will be sending a meet link for the scheduled time slot shortly";
+"CONTINUE APPLICATION"="CONTINUE APPLICATION";
+
+//omani
+"Omani"="Omani";
+"Please scan and upload your Omani national ID"="Please scan and upload your Omani national ID";
+"Scan Omani National ID"="Scan Omani National ID";
+"VIEW_SCANNED_IMAGES"="VIEW SCANNED IMAGES";
+"HIDE SCANNED IMAGES"="HIDE SCANNED IMAGES";
+"Front"="Front";
+"Back"="Back";
+"Scan the front side of your National ID"="Scan the front side of your National ID";
+"National ID - Front"="National ID - Front";
+"National ID - Back"="National ID - Back";
+"Scan the back side of your National ID"="Scan the back side of your National ID";
+
+//Liveness check
+"Get ready for a selfie"="Get ready for a selfie";
+"Liveness Check"="Liveness Check";
+"Place your face in center and smile"="Place your face in center and smile";
+"We can't proceed further Facial Match Failed"="We can't proceed further Facial Match Failed";
+"Go back to retake liveness test"="Go back to retake liveness test";
+"RETAKE"="RETAKE";
+"Facial Match or other details verification failed"="Facial Match or other details verification failed";
+"Please schedule a video call with one of our agents"="Please schedule a video call with one of our agents";
+"You have failed 3 attempts for liveness check"="You have failed 3 attempts for liveness check";
+"GO TO DASHBOARD"="GO TO DASHBOARD";
+
+//Expatriate
+"Please scan and upload the following documents"="Please scan and upload the following documents";
+"Resident ID"="Resident ID";
+"Scan Resident ID"="Scan Resident ID";
+"Passport"="Passport";
+"Scan Passport"="Scan Passport";
+"Valid Visa"="Valid Visa";
+"Upload Valid visa copy"="Upload Valid visa copy";
+"Scan the front side of your Resident ID"="Scan the front side of your Resident ID";
+"Scan the back side of your Resident ID"="Scan the back side of your Resident ID";
+"Resident ID - Front"="Resident ID - Front";
+"Resident ID - Back"="Resident ID - Back";
+"Scan the first page of your passport"="Scan the first page of your passport";
+"Passport - First Page"="Passport - First Page";
+"Unfortunately your country is not supported"="Unfortunately your country is not supported";
+"CANCEL"="CANCEL";
+"CONTACT BANK"="CONTACT BANK";
+
+//GCC Nationals
+"GCC Nationals"="GCC Nationals";
+"Please scan and upload the following documents"="Please scan and upload the following documents";
+"National ID"="National ID";
+"Scan National ID"="Scan National ID";
+
+//Personal Information
+"Personal Information"="Personal Information";
+"Personal Information detail"="Please verify and complete the remaining personal information";
+"Please upload your photo holding the ID"="Please upload your photo holding the ID";
+"Take Photo"="Take Photo";
+"*optional"="*optional";
+"Address Details"="Address Details";
+"Employment Details"="Employment Details";
+"VIEW STEPS"="VIEW STEPS";
+"Full Name"="Full Name";
+"Date of Birth"="Date of Birth";
+"Gender"="Gender";
+"Select"="Select";
+"Nationality"="Nationality";
+"ID No."="ID No.";
+"ID Expiry Date"="ID Expiry Date";
+"Passport No"="Passport No";
+"Passport Expiry Date"="Passport Expiry Date";
+"Country of Birth"="Country of Birth";
+"City of Birth"="City of Birth";
+"Enter City"="Enter City";
+"Country"="Country";
+"Residential Status"="Residential Status";
+"Please Specify"="Please Specify";
+"enter_other_resident_country"="Enter other resident country";
+"P.O Box"="P.O Box";
+"Enter P.O Box number"="Enter P.O Box number";
+"Postal Code"="Postal Code";
+"House/Flat Number"="House/Flat Number";
+"Enter Number"="Enter Number";
+"City"="City";
+"Area"="Area";
+"Enter Area"="Enter Area";
+"Employment status"="Employment status";
+"Industry"="Industry";
+"Employment sector"="Employment sector";
+"Employer Name"="Employer Name";
+"Enter Employer Name"="Enter Employer Name";
+"Profession"="Profession";
+"Name of Business"="Name of Business";
+"Enter Name of Business"="Enter Name of Business";
+
+//Financial Information
+"Financial Information"="Financial Information";
+"Financial Information detail"="Please complete the financial information";
+"Income Details"="Income Details";
+"Monthly Transactions"="Monthly Transactions";
+"Usual Mode of transactions"="Usual Mode of transactions";
+"Please upload a document as Proof Of Employment"="Please upload a document as Proof Of Employment";
+"upload_document"="Upload Document";
+"Proof of Employment could be salary certificate or employment letter"="Proof of Employment could be salary certificate or employment letter";
+"Salary Income"="Salary Income";
+"Source of Funds"="Source of Funds";
+"Source of fund/ Name of provider"="Source of fund/ Name of provider";
+"Relationship with Customer"="Relationship with Customer";
+"Occupation of Fund Provider"="Occupation of Fund Provider";
+"Monthly income range of fund provider"="Monthly income range of fund provider";
+"Do you have other income source?"="Do you have other income source?";
+"Enter other income source"="Enter other income source";
+"Expected Credit Amount"="Expected Credit Amount";
+"Expected No of Monthly debit transactions"="Expected No of Monthly debit transactions";
+"Expected Debit Amount"="Expected Debit Amount";
+"Mention other mode of transaction"="Mention other mode of transaction";
+"Percentage of ownership"="Percentage of ownership";
+"Monthly Income"="Monthly Income";
+"Please specify your source of funds"="Please specify your source of funds";
+"Enter source"="Enter source";
+"SUBMIT"="SUBMIT";
+
+//"Regularity Declaration"
+"Regularity Declaration"="Regularity Declaration";
+"Regularity Declaration detail"="Please complete the following details";
+"Purpose of opening an account?"="Purpose of opening an account?";
+"Are you holder of any US Documents?"="Are you holder of any US Documents?";
+"Are you Politically Exposed Person (PEP)?"="Are you Politically Exposed Person (PEP)?";
+"Are you a tax resident of a country other than Sultanate of Oman?"="Are you a tax resident of a country other than Sultanate of Oman?";
+"Select Document"="Select Document";
+"Select your nearest branch"="Select your nearest branch";
+"Enter purpose"="Enter purpose";
+"Are you holder of any of the following?"="Are you holder of any of the following?";
+
+//USNationality
+"US Document Details"="US Document Details";
+"Address Information"="Address Information";
+"Name (as shown on your income tax return)"="Name (as shown on your income tax return)";
+"Enter name"="Enter name";
+"Address"="Address";
+"Enter address"="Enter address";
+"Street Name"="Street Name";
+"Flat/Villa No."="Flat/Villa No.";
+"Enter no."="Enter house/flat number";
+"State"="State";
+"Zip Code"="Zip Code";
+"Social security number / Employer identification number"="Social security number / Employer identification number";
+
+//TaxResidentofUSA
+"Are you a holder of any of the following?"="Are you a holder of any of the following?";
+"US Document Details"="US Document Details";
+"Permanent Address Information"="Permanent Address Information";
+"Is your mailing address the same as any of the following?"="Is your mailing address the same as any of the following?";
+"Name of individual who is the beneficial owner"="Name of individual who is the beneficial owner";
+"Country of Citizenship"="Country of Citizenship";
+"U.S. taxpayer identification number (SSN or ITIN)"="U.S. taxpayer identification number (SSN or ITIN)";
+"Foreign tax identifying number"="Foreign tax identifying number";
+"Reference number(s)"="Reference number(s)";
+"Other"="Other";
+
+//PEP
+"PEP Details"="PEP Details";
+"Type of PEP"="Type of PEP";
+"Name of the PEP"="Name of the PEP";
+"Position of the PEP"="Position of the PEP";
+"Enter position"="Enter position";
+"Nationality of PEP"="Nationality of PEP";
+"Country of Residence of PEP"="Country of Residence of PEP";
+"Relationship with the PEP"="Relationship with the PEP";
+"Sorry!"="Sorry!";
+"Make sure you fill all mandatory details and then submit the form"="Make sure you fill all mandatory details and then submit the form";
+
+//CRS
+"You have reached a maximum limit of 3 countries"="You have reached a maximum limit of 3 countries";
+"ADD COUNTRY"="ADD COUNTRY";
+"Country_Jurisdiction_of_Tax_residence"="Country/Jurisdiction of Tax residence";
+"Taxpayer Identification Number (TIN)"="Taxpayer Identification Number (TIN)";
+
+//AddCountryCRS
+"REMOVE"="REMOVE";
+"Country Details"="Country Details";
+"Country1ATitle"="Reason A";
+"Country1ADetail"="The country/jurisdiction where the Account Holder is resident does not issue TINS to its residents.";
+"Country1BTitle"="Reason B";
+"Country1BDetail"="The Account Holder is otherwise unable to obtain a TIN or equivalent number.";
+"Country1CTitle"="Reason C";
+"Country1CDetail"="No TIN is required. (Note: Only select this reason if the domestic law of the relevant jurisdiction does not require the collection of the TIN issues by such jurisdiction).";
+"Country2ATitle"="Reason A";
+"Country2ADetail"="The country/jurisdiction where the Account Holder is resident does not issue TINS to its residents.";
+"Country2BTitle"="Reason B";
+"Country2BDetail"="The Account Holder is otherwise unable to obtain a TIN or equivalent number.";
+"Country2CTitle"="Reason C";
+"Country2CDetail"="No TIN is required. (Note: Only select this reason if the domestic law of the relevant jurisdiction does not require the collection of the TIN issues by such jurisdiction).";
+"Country3ATitle"="Reason A";
+"Country3ADetail"="The country/jurisdiction where the Account Holder is resident does not issue TINS to its residents.";
+"Country3BTitle"="Reason B";
+"Country3BDetail"="The Account Holder is otherwise unable to obtain a TIN or equivalent number.";
+"Country3CTitle"="Reason C";
+"Country3CDetail"="No TIN is required. (Note: Only select this reason if the domestic law of the relevant jurisdiction does not require the collection of the TIN issues by such jurisdiction).";
+
+//"Review your application"
+"Review your application"="Review your application";
+"Review your application detail"="";
+"DOWNLOAD PDF"="DOWNLOAD PDF";
+"SHARE PDF"="SHARE PDF";
+"CONFIRM"="CONFIRM";
+"i_ll_return_later"="I'LL RETURN LATER";
+
+//StepIndicator
+"of"="of";
+"steps"="steps";
+
+//Terms & Conditions
+"Terms & Conditions"="Terms & Conditions";
+"My clicking Next, you agree to our Terms & Conditions"="By clicking Next, you agree to our Terms & Conditions";
+
+//Add Signature
+"Add Signature"="Add Signature";
+"Add Signature detail"="Please use the two options available to update your signature. This signature will be used as the primary method of customer authentication";
+"CHANGE SIGNATURE"="CHANGE SIGNATURE";
+"SIGN ON SCREEN"="SIGN ON SCREEN";
+"UPLOAD SIGNATURE"="UPLOAD SIGNATURE";
+"CREATE ACCOUNT"="CREATE ACCOUNT";
+"Sign with your finger here."="Sign with your finger here.";
+"UPLOAD NEW SIGNATURE"="UPLOAD NEW SIGNATURE";
+"Almost done!"="Almost done!";
+"We just need to ensure we have all the information to set up your account.\nPlease fill the following form."="We just need to ensure we have all the information to set up your account.\nPlease fill the following form.";
+"CONTINUE"="CONTINUE";
+
+//HighCustomer
+"Additional Information"="Additional Information";
+"Please fill the missing details"="Please fill the missing details";
+"Remittance Information"="Remittance Information";
+"Send Remittance"="Send Remittance";
+"Receive_Remittance"="Receive Remittance";
+"Country #"="Country #";
+"Name of the country to receive remaittances"="Name of the country to receive remaittances";
+"Expected Purpose of remittance"="Expected Purpose of remittance";
+"Estimated Monthly Sales Turnover"="Estimated Monthly Sales Turnover";
+
+//VeryHighCustomer
+"Please upload a document as Commerical Registration (CR)"="Please upload a document as Commerical Registration (CR)";
+"Upload CR Copy"="Upload CR Copy";
+"Source of Wealth"="Source of Wealth";
+
+//Add-on Services
+"Add-on Services"="Add on Services";
+"Add-on Services detail"="Please select the additional services required from the list below.";
+"Debit Card"="Debit Card";
+"Debit Card detail"="Please select the most convenient option to receive your debit card";
+"Debit Card details"="Debit Card details";
+"Debit Card details 1"="A debit card is a payment card that deducts money directly from a consumer's checking account when it is used. Also called \"check cards\" or \"bank cards,\" they can be used to buy goods or services; or to get cash from an automated teller machine";
+"Mobile Banking"="Mobile Banking";
+"Mobile Banking detail"="Please enter the credentials to activate your mobile banking";
+"Mobile banking details"="Mobile banking details";
+"Mobile banking details 1"="Mobile banking is the act of making financial transactions on a mobile device (cell phone, tablet, etc.).";
+"Both"="Both";
+"Both detail"="Please select for both services";
+
+//Debit Card
+"We will generate a virtual card for you to use immediately"="We will generate a virtual card for you to use immediately";
+"By clicking Submit, you agree to our Terms & Conditions"="By clicking Submit, you agree to our Terms & Conditions";
+"How will you receive the card?"="How will you receive the card?";
+
+//AnyBranchInfo
+"Branch Details"="Branch Details";
+"Kiosk Details"="Kiosk Details";
+"Delivery Details"="Delivery Details";
+"Select branch you would like to collect"="Select branch you would like to collect";
+"Date"="Date";
+"Time"="Time";
+"Enter time"="Select Time";
+"Select Kiosk Location"="Select Kiosk Location";
+"Street Name"="Street Name";
+"Flat/Villa name"="Flat/Villa name";
+
+//VirtualDebitCard
+"Debit card collection details submitted successfully!"="Debit card collection details submitted successfully!";
+"Your Virtual Debit Card"="Your Virtual Debit Card";
+"You can start using your card right away, for any kind of online transaction"="You can start using your card right away, for any kind of online transaction";
+"Account No."="Account No.";
+"Use your debit card with Apple Pay and Google Pay for secure payments."="Use your debit card with Apple Pay and Google Pay for secure payments.";
+
+//MobileBanking
+"Login Password"="Login Password";
+"Enter password"="Enter password";
+"Confirm Login Password"="Confirm Login Password";
+"Transaction Password"="Transaction Password";
+"Confirm Transaction Password"="Confirm Transaction Password";
+
+//MobileBankingSubmitted
+"Mobile Banking details submitted"="Mobile Banking details submitted";
+"Your details have been submitted. You can now login with the your account details."="Your details have been submitted. You can now login with the your account details.";
+"GO TO LOGIN PAGE"="GO TO LOGIN PAGE";
+
+"TermAndCond_Text"="These General Terms and Conditions govern the use of all Accounts and Services by the Customer. It is clarified that the General Terms and Conditions are to be read in conjunction with the Additional Terms and Conditions subject to which any Account or Service provided. In the event of any conflict between the General Terms and Conditions and the Additional Terms and Conditions, the latter will prevail to the extent of such conflict.\n\nThe Customer agrees to carefully examine each Account Statement and to give notice to the Bank, in writing, of any errors, discrepancies, unauthorized debits or anomalies promptly (but in any event within thirty (30) days from the date of receipt of such Account Statement). Failure to give notice by the Customer to the Bank of any purported errors shall result in the Customer being deemed to have accepted and approved the contents of the Account Statement.\n\nAll Account Statements received by the Customer through electronic means (including but not limited to facsimile, E-mail, ATM and SMS) shall constitute duplicate statements of account and will be prepared by electronic means and the information contained therein will be extracted from the Bank’s computer systems. While the Bank will take all reasonable steps to ensure the accuracy of the statement, the Bank will not be liable for any error or omission therein.";
+
+
+//==
+"View the services associated with the account"="View the services associated with the account";
+"Submit document as a proof of address"="Submit document as a proof of address";
+"High Risk Customer"="High Risk Customer";
+"choose_language"="Choose Language";
+"SCHEDUAL_A_CALL"="SCHEDUAL A CALL";
+"CONTACT_BANK"="CONTACT BANK";
+"Alert"="Alert!";
+"email_already_skip_msg"="Email validation is already skipped.\nAtleast one validation is mandatory.";
+"mobile_already_skip_msg"="Mobile validation is already skipped.\nAtleast one validation is mandatory.";
+"no_application_found"="No application found with this mobile number, submit a request to open an account.";
+"CHECK_STATUS"="CHECK STATUS";
+"RETRY"="RETRY";
+"minimum_age_msg"="You should be greater than 18 to create account";
+"Error"="Error";
+"national_id_expire_msg"="(National ID)\n\nYou have submitted an expired document. Please check and retry";
+"national_id_title"="(National ID)";
+"resident_id_expire_msg"="(Resident ID)\n\nYou have submitted an expired document. Please check and retry";
+"resident_id_title"="(Resident ID)";
+"passport_expire_msg"="(Passport)\n\nYou have submitted an expired document. Please check and retry";
+"passport_title"="(Passport)";
+"valid_visa_title"="(Valid Visa)";
+"Select_Salutation"="Select Salutation";
+"restricted_edit_field_msg"="To edit this field, you will need to re-scan your Passport";
+"Education_level"="Education level";
+"picture_similar_passport"="Make sure your picture is similar to the one in your passport";
+"Enter_Salary_Income"="Enter Salary Income";
+"Other_Income_Source"="Other Income Source";
+"Expected_Monthly_credit_transactions"="Expected No of Monthly credit transactions";
+"select_exp_credit_tran"="Select Exp Monthly Credit Transactions";
+"Monthly_Debit_Transactions"="Monthly Debit Transactions";
+"Proof_Employment_letter_msg"="Proof of Employment could be salary certificate or Employement letter";
+"Upload"="Upload";
+"Select_purpose_account"="Select purpose of opening an account?";
+"Source_wealth_PEP"="Source of wealth of PEP";
+"2_steps_away_creating_account"="You are 2 steps away from creating account. Going back may loose all your unsaved changes.";
+"Citizenship"="Citizenship";
+"Type"="Type";
+"Documents"="Documents";
+"Omani_National_ID"="Omani National ID";
+"Name"="Name";
+"Profile_Pic"="Profile Pic";
+"Financial_Information"="Financial Information";
+"Purpose"="Purpose";
+"Other_Purpose_of_opening_account"="Other Purpose Of Account Opening";
+"USDocuments_Details"="US Documents Details";
+"Mailing_Address_Details"="Mailing Address Details";
+"Politically_Exposed_Person"="Politically Exposed Person (PEP)";
+"tax_resident_sultanate_oman"="Tax resident of a country other than Sultanate of Oman";
+"no_TIN_available"="If no TIN available";
+"Nearest_Branch"="Nearest Branch";
+"Location"="Location";
+"Liveness_Successfully_Verifield"="Liveness Successfully\nVerifield";
+"You_only_have"="You only have";
+"attempt_remaining"="attempt remaining";
+"cannot_got_back_liveness_failed"="Cannot go back as liveness check has failed. Please schedule a call with our agent or 'Go To Dashboard'";
+"cannot_go_to_back_liveness_success"="Cannot go to back as liveness check has success.";//not use
+"Monthly_Sales_Turnover"="Estimated Monthly Sales turnover";
+"Name_of_recipient_country"="Name of recipient country";
+"Main_registered_activities_business"="Main registered activities of the business";
+"Upload_Commercial_Registration"="Upload Commercial Registration (CR) copy";
+"My_clicking_Next_you_agree_to_our"="By clicking Next, you agree to our";
+"Passwords_do_not_match"="Passwords do not match";
+"Debit_Card_details_submitted"="Debit Card details submitted";
+"Submitted_debit_Card_msg"="Your request has been submitted. Our contact center agent will be sending a meet link for the scheduled time slot shortly";
+"Debit_Mobile_Banking_Details_Submitted"="Debit Card & Mobile Banking Details Submitted";
+"No_Additional_Documents_required"="No Additional Documents required";
+"Take_photo_the_your_address_proof"="Take a photo of the your address proof";
+"Take_photo_visa"="Take a photo of the front page of your visa";
+"Application_Status"="Application Status";
+"Application_Number"="Application Number";
+"Application_Status"="Application Status";
+"Application_Submitted_Date"="Application Submitted Date";
+
+//--
+"high_risk_customer_info"="Fill out form to proceed with account opening request";
+"very_high_risk_customer"="Very High Risk Customer";
+"very_high_risk_customer_info"="Fill out form to proceed with account opening request";
+"start_video_call"="Start Video Call";
+"start_video_call_info"="Start scheduled video call with bank agent";
+"verifying_your_details"="Verifying your details…";
+"this_might_take_a_minute_or_two"="This might take a minute or two";
+"your_details"="Your Details";
+"salutation"="Salutation";
+"country_dialog_hint_text1"="Search";
+"Field_is_Mandatory"="Field is Mandatory";
+"_1_of_3_steps"="1 of 3 steps";
+"_2_of_3_steps"="2 of 3 steps";
+"_3_of_3_steps"="3 of 3 steps";
+"_1_of_2_steps"="1 of 2 steps";
+"_2_of_2_steps"="2 of 2 steps";
+"default_currency_code"="OMR";
+"Arabic"="Arabic";
+"if_no_tin_available_select_reason_a_b_or_c"="If no TIN available, select reason A, B or C";
+"enter_zip_code"="Enter zip code";
+"edit"="EDIT";
+"thank_you_desc_4"="Your account details have been sent to the bank office. We will be notifying you with the status of your account opening in 2–3 working days.";
+"no_country_found"="No Country Found";
+"enter_mobile_number"="Enter mobile number";
+"enter_email_hint"="Enter email";
+"request_sent"="Request Sent";
+"livenss_failed_schedule_video_call_desc"="We will notify date and time of the call";
+"edit_button_alert_text"="By continuing you may have to refill all successive forms";
+"holder_of_us_doc_title_description"="Do you have any relation with someone in the political space, or are you a politician yourself?";
+"take_clear_photo_of_signature"="Take a clear photo of your signature";
+"apply"="Apply";
+
+"notifications"="Notifications";
+"notifications_info"="See all your notifications";
+"please_specify_other_purpose"="Please specify other purpose";
+"something_went_wrong"="Something went wrong, Please try again";
+"no_video_call_scheduled"="No video call scheduled";
+"no_notifications"="No Notifications";
+"oman"="Oman";
+"enter_exp_credit_amt"="Enter Exp Credit Amt";
+"enter_exp_debit_amt"="Enter Exp Debit Amt";
+"monthly_income_hint"="Enter Monthly Income";
+"monthly_income_range_of_fund_provider_hint"="Enter Monthly income range";
+"kb"="kb";
+"not_available_time_slot"="No slot available today\nPlease select a different date";
+"view_more"="View More";
+"view_less"="View Less";
+"select_time"="Select Time";
+
+"other_details"="Other Details";
+"something_went_wrong"="Something went wrong, Please try again";

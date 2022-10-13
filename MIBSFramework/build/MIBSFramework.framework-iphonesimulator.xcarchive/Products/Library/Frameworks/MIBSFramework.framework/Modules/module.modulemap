@@ -1,0 +1,11 @@
+framework module MIBSFramework {
+  umbrella header "MIBSFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MIBSFramework.Swift {
+  header "MIBSFramework-Swift.h"
+  requires objc
+}

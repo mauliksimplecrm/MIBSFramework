@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Medium.ttf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StepIndicatorTblCell" id="KGk-i7-Jjw" customClass="StepIndicatorTblCell" customModule="Maisarah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-Z1-oel">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZC-W3-xog">
+                                <rect key="frame" x="15" y="12" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="c74-0z-w6f"/>
+                                    <constraint firstAttribute="height" constant="24" id="zUE-aP-1tF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="15"/>
+                                <color key="textColor" name="GREEN"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="GREEN"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cornerRadius" value="12"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZt-wk-XQn">
+                                <rect key="frame" x="54" y="15" width="251" height="18"/>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="18"/>
+                                <color key="textColor" name="DARKGREY"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7E-SD-TSC">
+                                <rect key="frame" x="0.0" y="48" width="320" height="1"/>
+                                <color key="backgroundColor" name="LIGHTGREY"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="GiY-gi-VKq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rZC-W3-xog" firstAttribute="leading" secondItem="fT7-Z1-oel" secondAttribute="leading" constant="15" id="8NS-yp-nOk"/>
+                            <constraint firstAttribute="bottom" secondItem="t7E-SD-TSC" secondAttribute="bottom" id="FG5-AO-lIy"/>
+                            <constraint firstItem="t7E-SD-TSC" firstAttribute="leading" secondItem="fT7-Z1-oel" secondAttribute="leading" id="Ptp-lO-PJs"/>
+                            <constraint firstItem="rZC-W3-xog" firstAttribute="centerY" secondItem="SZt-wk-XQn" secondAttribute="centerY" id="Sds-Jf-gAz"/>
+                            <constraint firstItem="SZt-wk-XQn" firstAttribute="top" secondItem="fT7-Z1-oel" secondAttribute="top" constant="15" id="TuW-nt-li0"/>
+                            <constraint firstAttribute="trailing" secondItem="t7E-SD-TSC" secondAttribute="trailing" id="Vpy-DB-AWG"/>
+                            <constraint firstItem="SZt-wk-XQn" firstAttribute="leading" secondItem="rZC-W3-xog" secondAttribute="trailing" constant="15" id="XwR-qO-UWx"/>
+                            <constraint firstItem="t7E-SD-TSC" firstAttribute="top" secondItem="SZt-wk-XQn" secondAttribute="bottom" constant="15" id="Ygd-Cl-u9Z"/>
+                            <constraint firstAttribute="trailing" secondItem="SZt-wk-XQn" secondAttribute="trailing" constant="15" id="eTj-K2-BQS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fT7-Z1-oel" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2QD-TS-HeU"/>
+                    <constraint firstAttribute="bottom" secondItem="fT7-Z1-oel" secondAttribute="bottom" id="aid-0q-g6d"/>
+                    <constraint firstAttribute="trailing" secondItem="fT7-Z1-oel" secondAttribute="trailing" id="n4k-6S-jtl"/>
+                    <constraint firstItem="fT7-Z1-oel" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zEC-u1-WI4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblNumber" destination="rZC-W3-xog" id="n8s-xq-ta3"/>
+                <outlet property="lblTitle" destination="SZt-wk-XQn" id="Sxm-ck-5kZ"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="101"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DARKGREY">
+            <color red="0.13300000131130219" green="0.13300000131130219" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GREEN">
+            <color red="0.32499998807907104" green="0.66699999570846558" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LIGHTGREY">
+            <color red="0.86699998378753662" green="0.86699998378753662" blue="0.88599997758865356" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

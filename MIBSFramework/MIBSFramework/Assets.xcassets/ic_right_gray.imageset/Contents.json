@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_right_gray.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "filename" : "ic_left_gray.png",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

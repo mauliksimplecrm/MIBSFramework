@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Book.ttf">
+            <string>Gotham-Book</string>
+        </array>
+        <array key="Gotham-Medium.ttf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RequestSentLivenesscheckVC" customModule="Maisarah" customModuleProvider="target">
+            <connections>
+                <outlet property="btnContinue" destination="d4V-Jz-t5t" id="xVw-JV-yiz"/>
+                <outlet property="headerView" destination="JiE-SW-3xj" id="mVI-pM-g0i"/>
+                <outlet property="lblDetail" destination="SKX-7a-Tfb" id="Z66-x0-b0d"/>
+                <outlet property="lblGotoDashboard" destination="6ln-uW-lsB" id="KDV-Tx-cTI"/>
+                <outlet property="lblTitle" destination="YeA-7A-8OG" id="9F7-dI-zvl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JiE-SW-3xj" customClass="CustomHeaderView" customModule="Maisarah" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="WtA-VE-Ld4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Myt-TZ-XPG">
+                    <rect key="frame" x="15" y="732" width="384" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO TO DASHBOARD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ln-uW-lsB">
+                            <rect key="frame" x="98" y="0.0" width="188" height="50"/>
+                            <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="18"/>
+                            <color key="textColor" name="DARKGREY"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaM-SR-bzZ">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="50"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                            <connections>
+                                <action selector="btnGoToDashboard:" destination="-1" eventType="touchUpInside" id="Q2r-Dp-JU8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="eaM-SR-bzZ" secondAttribute="trailing" id="87W-M1-RUW"/>
+                        <constraint firstItem="6ln-uW-lsB" firstAttribute="top" secondItem="Myt-TZ-XPG" secondAttribute="top" id="HRR-5c-mIa"/>
+                        <constraint firstAttribute="bottom" secondItem="6ln-uW-lsB" secondAttribute="bottom" id="IWL-or-XoV"/>
+                        <constraint firstAttribute="height" constant="50" id="SB4-hN-mii"/>
+                        <constraint firstAttribute="bottom" secondItem="eaM-SR-bzZ" secondAttribute="bottom" id="U9u-iS-Vo1"/>
+                        <constraint firstItem="eaM-SR-bzZ" firstAttribute="top" secondItem="Myt-TZ-XPG" secondAttribute="top" id="asl-v2-2Ux"/>
+                        <constraint firstItem="eaM-SR-bzZ" firstAttribute="leading" secondItem="Myt-TZ-XPG" secondAttribute="leading" id="ePo-IR-Epx"/>
+                        <constraint firstItem="6ln-uW-lsB" firstAttribute="centerX" secondItem="Myt-TZ-XPG" secondAttribute="centerX" id="uHt-jU-OwH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="cornerRadius" value="25"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="DARKGREY"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_checked_green" translatesAutoresizingMaskIntoConstraints="NO" id="HyN-wQ-cdi">
+                    <rect key="frame" x="157" y="307.5" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="kyI-lp-3Qy"/>
+                        <constraint firstAttribute="height" constant="100" id="rqs-yD-86X"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request Sent" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeA-7A-8OG">
+                    <rect key="frame" x="15" y="442.5" width="384" height="21"/>
+                    <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="21"/>
+                    <color key="textColor" name="DARKGREY"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will notify date and time of the call" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKX-7a-Tfb">
+                    <rect key="frame" x="15" y="483.5" width="384" height="18"/>
+                    <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="18"/>
+                    <color key="textColor" name="MIDGREY"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4V-Jz-t5t">
+                    <rect key="frame" x="15" y="797" width="384" height="50"/>
+                    <color key="backgroundColor" name="GREEN"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="s6X-iQ-LF5"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="CONTINUE APPLICATION">
+                        <fontDescription key="titleFontDescription" name="Gotham-Medium" family="Gotham" pointSize="18"/>
+                        <color key="baseForegroundColor" name="WHITE"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="cornerRadius" value="25"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnContinue:" destination="-1" eventType="touchUpInside" id="pMj-ZU-SL6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="JiE-SW-3xj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="1Wp-ha-Uhq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Myt-TZ-XPG" secondAttribute="trailing" constant="15" id="7gX-Ad-aki"/>
+                <constraint firstItem="SKX-7a-Tfb" firstAttribute="top" secondItem="YeA-7A-8OG" secondAttribute="bottom" constant="20" id="96u-ES-qsX"/>
+                <constraint firstItem="Myt-TZ-XPG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="9li-G4-kB0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="d4V-Jz-t5t" secondAttribute="trailing" constant="15" id="Be9-uI-M14"/>
+                <constraint firstItem="YeA-7A-8OG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="DEh-5l-Vbh"/>
+                <constraint firstItem="YeA-7A-8OG" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="ETx-jB-qaY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="d4V-Jz-t5t" secondAttribute="bottom" constant="15" id="PBU-0J-KA4"/>
+                <constraint firstItem="SKX-7a-Tfb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="PQF-x1-XWM"/>
+                <constraint firstAttribute="trailing" secondItem="YeA-7A-8OG" secondAttribute="trailing" constant="15" id="aba-e0-7J2"/>
+                <constraint firstItem="d4V-Jz-t5t" firstAttribute="top" secondItem="Myt-TZ-XPG" secondAttribute="bottom" constant="15" id="cJe-D2-fZY"/>
+                <constraint firstItem="JiE-SW-3xj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dhY-QT-N2N"/>
+                <constraint firstAttribute="trailing" secondItem="SKX-7a-Tfb" secondAttribute="trailing" constant="15" id="e8L-fq-wni"/>
+                <constraint firstItem="d4V-Jz-t5t" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="fpr-Xb-z5p"/>
+                <constraint firstItem="HyN-wQ-cdi" firstAttribute="centerX" secondItem="YeA-7A-8OG" secondAttribute="centerX" id="iRx-2O-xxX"/>
+                <constraint firstItem="JiE-SW-3xj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="l7A-ey-c1w"/>
+                <constraint firstItem="YeA-7A-8OG" firstAttribute="top" secondItem="HyN-wQ-cdi" secondAttribute="bottom" constant="35" id="pNo-Bc-2yu"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="89"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_checked_green" width="1000" height="1000"/>
+        <namedColor name="DARKGREY">
+            <color red="0.13300000131130219" green="0.13300000131130219" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GREEN">
+            <color red="0.32499998807907104" green="0.66699999570846558" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MIDGREY">
+            <color red="0.46299999952316284" green="0.46299999952316284" blue="0.50999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WHITE">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

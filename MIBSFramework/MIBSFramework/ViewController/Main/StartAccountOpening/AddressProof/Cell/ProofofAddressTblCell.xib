@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Book.otf">
+            <string>Gotham-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProofofAddressTblCell" id="KGk-i7-Jjw" customClass="ProofofAddressTblCell" customModule="Maisarah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pni-bk-ttl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxW-Gj-iT7">
+                                <rect key="frame" x="15" y="17" width="10" height="10"/>
+                                <color key="backgroundColor" name="GREEN"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="TtI-rY-X00"/>
+                                    <constraint firstAttribute="width" constant="10" id="ZDA-Sp-Bnd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cornerRadius" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tS5-eZ-MxP">
+                                <rect key="frame" x="40" y="15" width="265" height="14"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="18"/>
+                                <color key="textColor" name="DARKGREY"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tS5-eZ-MxP" firstAttribute="top" secondItem="pni-bk-ttl" secondAttribute="top" constant="15" id="IfG-bI-IWN"/>
+                            <constraint firstAttribute="trailing" secondItem="tS5-eZ-MxP" secondAttribute="trailing" constant="15" id="Rsx-A0-48P"/>
+                            <constraint firstItem="uxW-Gj-iT7" firstAttribute="centerY" secondItem="pni-bk-ttl" secondAttribute="centerY" id="SqJ-Vf-eLl"/>
+                            <constraint firstItem="tS5-eZ-MxP" firstAttribute="leading" secondItem="uxW-Gj-iT7" secondAttribute="trailing" constant="15" id="ixb-tG-JMu"/>
+                            <constraint firstItem="uxW-Gj-iT7" firstAttribute="leading" secondItem="pni-bk-ttl" secondAttribute="leading" constant="15" id="qE4-8R-4xl"/>
+                            <constraint firstAttribute="bottom" secondItem="tS5-eZ-MxP" secondAttribute="bottom" constant="15" id="tl8-bc-Cwg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pni-bk-ttl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KQr-aP-GsH"/>
+                    <constraint firstItem="pni-bk-ttl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Kne-Th-bKl"/>
+                    <constraint firstAttribute="bottom" secondItem="pni-bk-ttl" secondAttribute="bottom" id="pT9-Ub-imC"/>
+                    <constraint firstAttribute="trailing" secondItem="pni-bk-ttl" secondAttribute="trailing" id="swL-4q-4FO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="tS5-eZ-MxP" id="fu6-TY-NxH"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="109"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DARKGREY">
+            <color red="0.13300000131130219" green="0.13300000131130219" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GREEN">
+            <color red="0.32499998807907104" green="0.66699999570846558" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

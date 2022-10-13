@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Book.ttf">
+            <string>Gotham-Book</string>
+        </array>
+        <array key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TitleDetailReviewAppTblCell" rowHeight="71" id="KGk-i7-Jjw" customClass="TitleDetailReviewAppTblCell" customModule="Maisarah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQI-pW-EML">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMR-zZ-5iT">
+                                <rect key="frame" x="15" y="15" width="290" height="15"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="15"/>
+                                <color key="textColor" name="MIDGREY"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOR-nu-4S4">
+                                <rect key="frame" x="15" y="38" width="290" height="18"/>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="18"/>
+                                <color key="textColor" name="DARKGREY"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DMR-zZ-5iT" secondAttribute="trailing" constant="15" id="EaL-kz-e5x"/>
+                            <constraint firstItem="DMR-zZ-5iT" firstAttribute="top" secondItem="LQI-pW-EML" secondAttribute="top" constant="15" id="Ktn-UX-JOj"/>
+                            <constraint firstAttribute="bottom" secondItem="FOR-nu-4S4" secondAttribute="bottom" constant="15" id="X8h-PP-3C6"/>
+                            <constraint firstItem="DMR-zZ-5iT" firstAttribute="leading" secondItem="LQI-pW-EML" secondAttribute="leading" constant="15" id="pdO-Ot-PgX"/>
+                            <constraint firstItem="FOR-nu-4S4" firstAttribute="leading" secondItem="LQI-pW-EML" secondAttribute="leading" constant="15" id="qNP-ZX-igN"/>
+                            <constraint firstAttribute="trailing" secondItem="FOR-nu-4S4" secondAttribute="trailing" constant="15" id="qNh-uX-SJy"/>
+                            <constraint firstItem="FOR-nu-4S4" firstAttribute="top" secondItem="DMR-zZ-5iT" secondAttribute="bottom" constant="8" id="wp9-cq-P8i"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LQI-pW-EML" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9SQ-y7-Oha"/>
+                    <constraint firstItem="LQI-pW-EML" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9cO-DM-8a3"/>
+                    <constraint firstAttribute="trailing" secondItem="LQI-pW-EML" secondAttribute="trailing" id="ei1-Cp-Kby"/>
+                    <constraint firstAttribute="bottom" secondItem="LQI-pW-EML" secondAttribute="bottom" id="zIL-4C-eO4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDetail" destination="FOR-nu-4S4" id="svk-Ol-qN5"/>
+                <outlet property="lblTitle" destination="DMR-zZ-5iT" id="EvW-ou-ozh"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="107.14285714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DARKGREY">
+            <color red="0.13300000131130219" green="0.13300000131130219" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MIDGREY">
+            <color red="0.46299999952316284" green="0.46299999952316284" blue="0.50999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

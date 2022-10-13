@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '15.0'
+
+target 'MIBSFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MIBSFramework
+  #pod 'MBDocCapture'
+  #pod 'MBProgressHUD'
+  #pod 'SKCountryPicker'
+  #pod 'DropDown'
+  #pod 'ActionSheetPicker-3.0'
+  #pod 'SDWebImage'
+  #pod 'ID-Card-Camera'
+  
+  
+  #pod 'Reachability'
+  #pod 'Toast-Swift'
+  #pod 'Popover'
+  #pod 'Alamofire'
+  #pod 'AlamofireImage'
+  #pod 'SwiftyJSON'
+  #pod 'ObjectMapper'
+  #pod 'AnyFormatKit'
+  #pod 'DPOTPView'
+  #pod 'FSCalendar'
+  #pod 'IQKeyboardManagerSwift'
+  #pod 'lottie-ios'
+  #pod 'ReadMoreTextView'
+  #pod 'Lightbox'
+  
+  
+  pod 'JitsiMeetSDK'
+  
+  pod 'Firebase/Core'
+  pod 'GoogleMLKit/FaceDetection'
+  
+  
+  
+  
+  
+end
